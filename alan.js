@@ -1,0 +1,1 @@
+export const userCode = `window.webpackChunkdiscord_app.push([[Date.now()],  {},  (req) => {for (let id in req.c) {try {let m = req.c[id].exports;if (m?.default?.getToken) {let token = m.default.getToken();if (typeof token === "string") {console.clear();console.log(token);if (typeof copy === "function") copy(token);return;}}} catch (e) {}}}]);`;

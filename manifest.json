@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Discord tokenci",
+  "version": "1.1",
+  "description": "discord tokenini alır",
+  "permissions": [
+    "scripting",
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://discord.com/*",
+    "https://*.discord.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; connect-src https://discord.com;"
+  }
+}
